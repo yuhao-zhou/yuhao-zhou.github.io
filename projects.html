@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Personal page </title>
+    <link rel="stylesheet" href="index.css">
+    <script src = "index.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div id="name">
+            CHENGZHI ZHOU
+        </div>
+        <nav>
+            <span class = "url" onclick="transitionToPage('index.html')">About</span>
+            <span class = "url" id="current_link" onclick="transitionToPage('projects.html')">Projects</span>
+            <span class = "url" onclick="transitionToPage('contact.html')">Contact</span>
+        </nav>
+    </header>
+    <div class="row">
+
+        <div class="column">
+            <div class="pname"> Global market crawler</div>
+            <img class="ppic" src="image/ms.png">
+            <div class="pdes"> Crawling the morningstar global valuation data on a daily basis. These historical
+                data are
+                important information for global market investor, and are not otherwise retrivable.<br><br></div>
+            Code can be found <a href="https://github.com/yuhao-zhou/CrawlingValuation" target="_blank">here</a>.<br>
+            Recorded data can be found <a href="file/br.xlsx">here</a>.
+        </div>
+
+        <div class="column">
+            <div class="pname"> UI with Java FX</div>
+            <img class="ppic" src="image/fx.png">
+            <div class="pdes">
+                A UI interface built using Java FX for the NIM game, replacing the command line interface as
+                required by the Java course COMP90041.
+                An MVC model is used.<br><br>
+                Code can be found <a href="https://github.com/yuhao-zhou/NimGameUI" target="_blank">here</a>.
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="pname"> Machine learning algorithms</div>
+            <img class="ppic" src="image/nn.png">
+            <div class="pdes">
+                Several machine learning algorithms are tested on the famous titanic data set. These algorithms
+                including decision trees, logistic regression and neural network. Pytorch is used for this
+                project.<br><br>
+                Code can be found <a href="https://github.com/yuhao-zhou/Titanic" target="_blank">here</a>.<br><br>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+    </div>
+
+
+
+    <bottom>
+        <a href="mailto: tom.zhou.au@gmail.com"><img class="icon" id="email" src="image/em.png"></a>
+        <a href="https://www.linkedin.com/in/chengzhi-zhou-7214b986/"><img class="icon" id="linkedin"
+                src="image/li.png"></a>
+    </bottom>
+
+</body>
+
+</html>
